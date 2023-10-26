@@ -894,6 +894,7 @@ footer {
 }
 
 .heder_menu_start {
+  display: flex;
   pointer-events: none;
   visibility: hidden;
   opacity: 0;
@@ -903,4 +904,12 @@ footer {
   visibility: visible;
   opacity: 1;
   pointer-events: auto;
+}
+.header_nav_header_div {
+  display: flex;
+}
+.heder_menu_main {
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
 }
